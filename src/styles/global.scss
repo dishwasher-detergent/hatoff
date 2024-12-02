@@ -13,6 +13,10 @@ body {
 }
 
 .card:not(.card-untextured) {
+  &-title {
+    color: oklch(var(--nc));
+  }
+
   background: url('../../public/asset/texture-bg.png'),
     linear-gradient(
       to bottom,
